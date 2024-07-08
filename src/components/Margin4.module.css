@@ -1,0 +1,70 @@
+.icon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.container1,
+.margin1,
+.overlay {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.margin1,
+.overlay {
+  flex-direction: column;
+}
+.overlay {
+  border-radius: var(--br-10xs);
+  background-color: var(--color-thistle-100);
+  padding: var(--padding-9xs);
+}
+.margin1 {
+  padding: 0 var(--padding-3xs) 0 0;
+}
+.entrenadoresProfesionales {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.heading3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container,
+.margin {
+  display: flex;
+  box-sizing: border-box;
+}
+.container {
+  align-self: stretch;
+  height: 80px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-xl);
+}
+.margin {
+  position: absolute;
+  height: calc(100% - 208px);
+  width: calc(100% - 370px);
+  top: -0.5px;
+  right: 370px;
+  bottom: 208.5px;
+  left: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-5xl) var(--padding-xs) 0;
+  max-width: 660px;
+  text-align: left;
+  font-size: var(--bootstrapmadecom-nunito-semibold-20-size);
+  color: var(--color-gray-100);
+  font-family: var(--bootstrapmadecom-roboto-medium-15);
+}

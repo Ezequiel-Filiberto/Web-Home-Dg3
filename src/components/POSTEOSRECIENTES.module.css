@@ -1,0 +1,88 @@
+.beneficios {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 15.6px;
+  text-transform: uppercase;
+}
+.beneficiosDeAprender,
+.heading2 {
+  display: flex;
+  justify-content: center;
+}
+.heading2 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-thistle-100);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-5xs) var(--padding-xl);
+}
+.beneficiosDeAprender {
+  width: 806px;
+  position: relative;
+  line-height: 64px;
+  text-transform: uppercase;
+  align-items: center;
+  height: 111px;
+  flex-shrink: 0;
+}
+.container,
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.container1 {
+  align-self: stretch;
+  padding: 0 var(--padding-425xl-4);
+  font-size: var(--font-size-45xl);
+}
+.container {
+  width: 1320px;
+  padding: 0 var(--padding-xs) var(--padding-41xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 1320px;
+}
+.container3 {
+  align-self: stretch;
+  height: 563.8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+.container2,
+.posteosRecientes {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container2 {
+  width: 1320px;
+  align-items: flex-start;
+  max-width: 1320px;
+  margin-top: -48px;
+  text-align: left;
+  font-size: var(--bootstrapmadecom-nunito-bold-24-size);
+}
+.posteosRecientes {
+  position: absolute;
+  width: 100%;
+  top: 3502px;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-41xl) var(--padding-55xl);
+  box-sizing: border-box;
+  background-image: url(/public/posteos-recientes@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: var(--bootstrapmadecom-nunito-semibold-20-size);
+  color: var(--color-gray-100);
+  font-family: var(--bootstrapmadecom-roboto-medium-15);
+}

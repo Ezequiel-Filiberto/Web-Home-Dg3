@@ -1,0 +1,90 @@
+.linksUtiles {
+  align-self: stretch;
+  position: relative;
+  line-height: 19.2px;
+}
+.heading4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xs);
+  z-index: 1;
+}
+.icon {
+  width: 12px;
+  position: relative;
+  height: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.container1,
+.margin1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.margin1 {
+  flex-direction: column;
+  padding: 0 var(--padding-10xs) 0 0;
+}
+.inicio {
+  position: relative;
+  line-height: 14px;
+}
+.item,
+.item1,
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.item,
+.item1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 var(--padding-3xs);
+}
+.item1 {
+  padding: var(--padding-3xs) 0;
+}
+.container,
+.list,
+.margin {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.list {
+  align-self: stretch;
+  justify-content: flex-start;
+  z-index: 0;
+  font-size: var(--bootstrapmadecom-roboto-regular-14-size);
+  font-family: var(--bootstrapmadecom-roboto-medium-15);
+}
+.container,
+.margin {
+  box-sizing: border-box;
+  max-width: 1320px;
+}
+.container {
+  width: 100%;
+  height: 165.2px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.margin {
+  align-self: stretch;
+  width: 220px;
+  justify-content: center;
+  padding: var(--padding-5xl) 0 var(--padding-11xl);
+  text-align: left;
+  font-size: var(--bootstrapmadecom-nunito-bold-16-size);
+  color: var(--color-gray-100);
+  font-family: var(--bootstrapmadecom-nunito-bold-16);
+}

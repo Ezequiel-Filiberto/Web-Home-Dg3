@@ -1,0 +1,73 @@
+.icon {
+  width: 42px;
+  position: relative;
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.container1,
+.margin1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.margin1 {
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 0 0;
+}
+.div {
+  position: relative;
+  line-height: 54px;
+  font-weight: 600;
+}
+.container3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs-6);
+}
+.clientesSatisfecho {
+  position: relative;
+  line-height: 24px;
+}
+.container4 {
+  align-self: stretch;
+  font-size: var(--bootstrapmadecom-nunito-semibold-20-size);
+  color: var(--bootstrapmadecom-tundora);
+  font-family: var(--bootstrapmadecom-nunito-bold-16);
+}
+.container2,
+.container4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container,
+.margin {
+  align-self: stretch;
+  display: flex;
+  box-sizing: border-box;
+}
+.container {
+  height: 138px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-10xl-4) var(--padding-11xl) var(--padding-11xl);
+}
+.margin {
+  width: 472px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-5xl) var(--padding-xs) 0;
+  max-width: 1320px;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--bootstrapmadecom-midnight-blue);
+  font-family: var(--bootstrapmadecom-roboto-medium-15);
+}

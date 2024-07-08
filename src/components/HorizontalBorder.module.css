@@ -1,0 +1,59 @@
+.quTiposDeClasesOfrecenEn {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.quTiposDeContainer {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.heading3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 0;
+}
+.icon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.container,
+.container1,
+.horizontalborder {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container,
+.horizontalborder {
+  flex-direction: column;
+}
+.container {
+  width: 2.52%;
+  margin: 0 !important;
+  position: absolute;
+  top: 20px;
+  right: 3.14%;
+  left: 94.34%;
+  z-index: 1;
+}
+.horizontalborder {
+  align-self: stretch;
+  border-bottom: 0.8px solid var(--bootstrapmadecom-tundora-15);
+  overflow: hidden;
+  padding: var(--padding-xl) 0 var(--padding-xl-8);
+  position: relative;
+  text-align: left;
+  font-size: var(--bootstrapmadecom-nunito-semibold-20-size);
+  color: var(--color-thistle-100);
+  font-family: var(--bootstrapmadecom-roboto-medium-15);
+}

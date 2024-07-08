@@ -1,0 +1,190 @@
+.faqs {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 15.6px;
+  text-transform: uppercase;
+}
+.heading2,
+.preguntasFrecuentes {
+  display: flex;
+  justify-content: center;
+}
+.heading2 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-thistle-100);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-5xs) var(--padding-xl);
+}
+.preguntasFrecuentes {
+  width: 781px;
+  position: relative;
+  line-height: 48px;
+  text-transform: uppercase;
+  align-items: center;
+}
+.container,
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.container1 {
+  align-self: stretch;
+  padding: 0 var(--padding-418xl-8);
+  font-size: var(--font-size-45xl);
+  color: var(--bootstrapmadecom-nero);
+}
+.container {
+  width: 1320px;
+  padding: 0 var(--padding-xs) var(--padding-41xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 1320px;
+}
+.culEsElHorarioDeApertura {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.culEsElContainer {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.heading3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 0;
+}
+.respuestaAlmacenitEst {
+  width: 592px;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.container6,
+.container7 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.container7 {
+  height: 65px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+.container6 {
+  justify-content: center;
+  padding: var(--padding-3xs) 0 0;
+  z-index: 1;
+  font-size: var(--bootstrapmadecom-nunito-bold-16-size);
+  color: var(--bootstrapmadecom-nero);
+}
+.icon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  transform: rotate(-90deg);
+}
+.container9 {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.container8,
+.container9,
+.horizontalborder {
+  display: flex;
+  align-items: flex-start;
+}
+.container8 {
+  width: 2.52%;
+  margin: 0 !important;
+  position: absolute;
+  top: 20px;
+  right: 0.63%;
+  left: 96.86%;
+  flex-direction: column;
+  justify-content: flex-start;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  z-index: 2;
+}
+.horizontalborder {
+  align-self: stretch;
+  border-bottom: 0.8px solid var(--bootstrapmadecom-tundora-15);
+  overflow: hidden;
+  padding: var(--padding-xl) 0 var(--padding-xl-8);
+  position: relative;
+}
+.container5,
+.horizontalborder {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container3,
+.container4,
+.container5 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.container4 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  max-width: 1320px;
+}
+.container3 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container2,
+.preguntas {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container2 {
+  width: 1320px;
+  align-items: flex-start;
+  max-width: 1320px;
+  text-align: left;
+  font-size: var(--bootstrapmadecom-nunito-semibold-20-size);
+  color: var(--color-thistle-100);
+}
+.preguntas {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 570px;
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-41xl) var(--padding-55xl);
+  box-sizing: border-box;
+  background-image: url(/public/preguntas@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: var(--bootstrapmadecom-roboto-bold-13-upper-size);
+  color: var(--color-gray-100);
+  font-family: var(--bootstrapmadecom-roboto-medium-15);
+}

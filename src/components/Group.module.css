@@ -1,0 +1,144 @@
+.icon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.container3 {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.container1,
+.container2,
+.container3,
+.margin {
+  display: flex;
+  align-items: flex-start;
+}
+.container2 {
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-11xs-2) 0 var(--padding-11xs);
+}
+.container1,
+.margin {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.container1 {
+  flex-direction: row;
+  padding: var(--padding-10xs-4) var(--padding-92xl-7);
+  gap: var(--gap-11xs);
+}
+.margin {
+  flex-direction: column;
+  padding: 0 0 var(--padding-mini);
+}
+.laVariedadDe {
+  width: 309px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container12,
+.margin1 {
+  width: 311.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs-4);
+  box-sizing: border-box;
+}
+.margin1 {
+  padding: 0 0 var(--padding-mini);
+}
+.testimonials2jpgIcon {
+  position: absolute;
+  top: calc(50% - 71.7px);
+  left: calc(50% - 44.95px);
+  border-radius: var(--br-26xl);
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.carlosMartnez {
+  position: relative;
+  line-height: 21.6px;
+}
+.heading3 {
+  position: absolute;
+  width: 100%;
+  top: 100px;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-80xl-4);
+  box-sizing: border-box;
+}
+.diseador {
+  position: relative;
+  line-height: 16.8px;
+  font-weight: 500;
+}
+.heading4 {
+  position: absolute;
+  width: 100%;
+  top: 126.6px;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-108xl-2);
+  box-sizing: border-box;
+  font-size: var(--bootstrapmadecom-roboto-regular-14-size);
+}
+.container13 {
+  align-self: stretch;
+  position: relative;
+  height: 143.4px;
+}
+.margin2 {
+  align-self: stretch;
+  flex: 1;
+  justify-content: flex-end;
+  padding: var(--padding-10xs-6) 0 0;
+  min-height: 143.4px;
+  font-size: var(--bootstrapmadecom-nunito-bold-18-size);
+  color: var(--bootstrapmadecom-midnight-blue);
+  font-family: var(--bootstrapmadecom-nunito-bold-16);
+}
+.container,
+.group25,
+.margin2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.container {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: var(--padding-11xl);
+  min-height: 320px;
+}
+.group25 {
+  width: 431.3px;
+  flex: 1;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-11xl);
+  opacity: 0.3;
+  text-align: center;
+  font-size: var(--bootstrapmadecom-nunito-bold-16-size);
+  color: var(--bootstrapmadecom-tundora);
+  font-family: var(--bootstrapmadecom-roboto-medium-15);
+}

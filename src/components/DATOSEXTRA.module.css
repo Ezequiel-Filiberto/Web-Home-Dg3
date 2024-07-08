@@ -1,0 +1,40 @@
+.container1 {
+  align-self: stretch;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+.container,
+.datosExtra {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container {
+  width: 1320px;
+  height: 65px;
+  align-items: flex-start;
+  max-width: 1320px;
+}
+.datosExtra {
+  position: absolute;
+  width: 100%;
+  top: 1243px;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-17xl) var(--padding-55xl) var(--padding-41xl);
+  box-sizing: border-box;
+  background-image: url(/public/datos-extra@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--bootstrapmadecom-midnight-blue);
+  font-family: var(--bootstrapmadecom-roboto-medium-15);
+}

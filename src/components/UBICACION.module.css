@@ -1,0 +1,122 @@
+.ubicacin {
+  align-self: stretch;
+  position: relative;
+  line-height: 22.5px;
+}
+.heading2 {
+  align-self: stretch;
+  height: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nuestraSedeSe {
+  font-weight: 500;
+}
+.entornoCmodoY {
+  font-weight: 800;
+  color: var(--color-gray-100);
+}
+.nuestraSedeSeContainer1 {
+  width: 100%;
+}
+.nuestraSedeSeContainer {
+  width: 527px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.container3 {
+  align-self: stretch;
+  height: 195px;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+  font-size: var(--bootstrapmadecom-nunito-semibold-20-size);
+  color: var(--bootstrapmadecom-midnight-blue);
+  font-family: var(--font-inter);
+}
+.container2,
+.container3,
+.overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.overlay {
+  align-self: stretch;
+  border-radius: var(--br-xl) 0 0 var(--br-xl);
+  background-color: var(--color-whitesmoke);
+  height: 343px;
+  justify-content: flex-start;
+  padding: var(--padding-33xl) var(--padding-21xl) var(--padding-21xl);
+  gap: var(--gap-5xs);
+}
+.container2 {
+  flex: 1;
+  height: 486px;
+  justify-content: center;
+  padding: var(--padding-45xl-9) 0;
+  max-width: 1296px;
+}
+.aboutjpgIcon {
+  width: 648px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  height: 517px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  max-width: 648px;
+}
+.container1,
+.container4 {
+  display: flex;
+  flex-direction: row;
+}
+.container4 {
+  flex: 1;
+  border-radius: var(--br-xl);
+  height: 488px;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 1296px;
+}
+.container1 {
+  align-self: stretch;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+.container,
+.ubicacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.container {
+  width: 1320px;
+  height: 491px;
+  align-items: flex-start;
+  padding: 0 var(--padding-xs);
+  max-width: 1320px;
+}
+.ubicacion {
+  position: absolute;
+  top: 1276px;
+  left: 0;
+  width: 1482px;
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-41xl) var(--padding-55xl);
+  background-image: url(/public/ubicacion@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--bootstrapmadecom-nunito-bold-24-size);
+  color: var(--color-gray-100);
+  font-family: var(--bootstrapmadecom-poppins-medium-15);
+}

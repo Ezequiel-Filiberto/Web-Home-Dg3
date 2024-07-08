@@ -1,0 +1,86 @@
+.equipo {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 15.6px;
+  text-transform: uppercase;
+}
+.heading2,
+.nuestrosProfesores {
+  display: flex;
+  justify-content: center;
+}
+.heading2 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-100);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-5xs) var(--padding-xl);
+}
+.nuestrosProfesores {
+  width: 504px;
+  position: relative;
+  line-height: 64px;
+  align-items: center;
+}
+.container,
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.container1 {
+  align-self: stretch;
+  padding: 0 var(--padding-455xl-9);
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray-100);
+}
+.container {
+  width: 1320px;
+  padding: 0 var(--padding-xs) var(--padding-41xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 1320px;
+}
+.container3 {
+  align-self: stretch;
+  height: 545px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+.container2,
+.profesores {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container2 {
+  width: 1320px;
+  align-items: flex-start;
+  max-width: 1320px;
+  margin-top: -24px;
+  font-size: var(--bootstrapmadecom-roboto-regular-14-size);
+  color: var(--color-gray-100);
+}
+.profesores {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-41xl) var(--padding-55xl);
+  box-sizing: border-box;
+  background-image: url(/public/profesores@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: var(--bootstrapmadecom-nunito-semibold-20-size);
+  color: var(--color-thistle-100);
+  font-family: var(--bootstrapmadecom-roboto-medium-15);
+}
